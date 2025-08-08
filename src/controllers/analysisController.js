@@ -1,4 +1,4 @@
-const { analyzeImageForPeople } = require('../services/imageAnalysisService');
+const { analyzeImageForPeople } = require('../backend/openrouter');
 const fs = require('fs');
 const path = require('path');
 

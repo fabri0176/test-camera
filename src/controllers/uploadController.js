@@ -1,4 +1,4 @@
-const { analyzeImageForPeople } = require('../services/imageAnalysisService');
+const { analyzeImageForPeople } = require('../backend/openrouter');
 
 exports.uploadImage = async (req, res) => {
   if (!req.file) {
